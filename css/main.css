@@ -1,0 +1,53 @@
+/* add your CSS rules here */
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+#map {
+	height: 100%;
+}
+
+.cam-picture {
+	min-height: 290px;
+}
+
+.cam-picture img{
+	width: 250px;	
+}
+
+.filter {
+	width: 50%;
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 25%;
+	opacity: 0.9;
+}
+
+.filter h1 {
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	margin: 0;
+}
+
+.filter p {
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.sdot {
+	color: #14C0CC;
+}
+
+.wsdot {
+	color: #513DCC;
+}

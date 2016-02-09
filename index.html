@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seattle Traffic</title>
+
+        <!-- BootStrap stylesheet -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        
+        <!-- Leaflet stylesheet -->
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
+
+        <!-- your stylesheet -->
+        <link rel="stylesheet" href="css/main.css"/>
+        
+        <!-- page icon -->
+        <link rel="icon" href="img/page-icon.png"/>
+    </head>
+    <body>
+        
+        <div class="panel panel-default filter">
+            <div id="filter-box" class="panel-body">
+                <h1>Seattle Traffic Cameras</h1>
+                <p id="count"></p>                
+                <input id="filter" type="text" class="form-control">            
+            </div>
+        </div>
+
+        <div id="map"></div>
+
+        <script src="js/require.js" data-main="js/main"></script>
+    </body>
+</html>
